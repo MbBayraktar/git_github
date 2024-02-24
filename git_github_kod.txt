@@ -1,0 +1,44 @@
+ls >> bu kod bize klasör içerisindeki dosyaları listeler. 
+ls -a >> gizli klasör var ise görmek için kullanılan kod. gizliler >> ./ ../ böyle gösterilir bu iki gizli dosya demektir.
+ls -la >> ne zaman oluşturulduğuna dair kayıt görmek için kullanılır.
+ls -l >> gizli klasörleri bilgileri görmek istemiyorsak kullanılır.
+  
+pwd (print working directory) >> hangi klasör içinde çalıştığımızı uzantı olarak gösterir.
+
+cd (change) >>  cd .. yapınca bir üst klasöre geçiş yapar. cd yapıp dosya ismi verirsek oraya gidebiliriz. örn: cd Desktop
+
+mkdir (make directory) >> bulunduğumuz klasör içinde dosya oluşturmaya yarar.
+
+touch >> dosya oluşturmaya yarar.
+
+clear >> bulunduğumuz komut ekranını temizlemeye yarar.
+
+rm (remove) >> dosya siler.
+
+rm -rf >> belirtilen dizin içerisideki dosya ve dizinleri kullanıcıya sormadan silmek için kullanılır.
+
+git >> git komutlarını listeler.
+
+git config --global user.name"KullanıcıAdiniz" kullanıcı adı tanımlamak için kullanılır.
+
+git config --global user.email emailadresi
+
+git config user.name >> kullanıcı adımızı gösterir.
+
+git config user.email >> email adresini kontrol etmek için kullanılır
+
+git init  >> git başlatma komutudur.
+
+git add >> projeye eklenecek dosyaların klasörlerin git tarafından kontrol edilebilmesi için listelenmesi(sahnelenmesi) gerekmektedir.
+
+git commit >> git commit -m "versiyon1" versiyon adına istediğimizi yaparak eklememizi yaparız.
+
+git add . >> bu komut tüm klasörü ekleme yapar. spesifik yüklemek için git add dosya/klasör adı yazılır.
+
+rm --cached dosya/klasör adı komutu add ile yapılan yani sahnelenen dosyayı sahnelenmekten çıkarır.
+
+git rm <dosya/klasör> f yapılırsa projei tamamen siler
+
+git log >> yükleme(commit) işlemini görmek için bu kod kullanılır.
+
+
